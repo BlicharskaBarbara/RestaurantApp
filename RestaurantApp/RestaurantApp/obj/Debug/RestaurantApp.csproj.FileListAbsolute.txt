@@ -1,0 +1,339 @@
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\RestaurantApp.dll.config
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\RestaurantApp.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\RestaurantApp.pdb
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\csc.exe
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\csc.exe.config
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\csc.rsp
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\csi.exe
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\csi.exe.config
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\csi.rsp
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.AppContext.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Console.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Net.Http.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\vbc.exe
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\vbc.exe.config
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\vbc.rsp
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Antlr3.Runtime.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Newtonsoft.Json.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.Helpers.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.Mvc.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.Optimization.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.Razor.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\WebGrease.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.Helpers.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.Mvc.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.Optimization.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.Razor.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Newtonsoft.Json.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Antlr3.Runtime.pdb
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.CopyComplete
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.pdb
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\EntityFramework.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\EntityFramework.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\BouncyCastle.Crypto.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\DocuSign.eSign.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\RestSharp.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.ComponentModel.Annotations.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\DocuSign.eSign.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.pdb
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.pdb
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\RestSharp.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.init.resources
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.GenerateResource.cache
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.Second.resources
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.third.resources
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.Fourth.resources
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next.resources
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next1.resources
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next2.resources
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.yyy.resources
+C:\Users\Rafał\source\repos\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.AssemblyReference.cache
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestaurantApp.dll.config
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestaurantApp.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestaurantApp.pdb
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csc.exe
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csc.exe.config
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csc.rsp
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csi.exe
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csi.exe.config
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csi.rsp
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.AppContext.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Console.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Net.Http.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\vbc.exe
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\vbc.exe.config
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\vbc.rsp
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Antlr3.Runtime.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\BouncyCastle.Crypto.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\DocuSign.eSign.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\EntityFramework.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\EntityFramework.SqlServer.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Newtonsoft.Json.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestSharp.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.ComponentModel.Annotations.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Helpers.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Mvc.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Optimization.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Razor.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\WebGrease.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\DocuSign.eSign.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\EntityFramework.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\EntityFramework.SqlServer.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.pdb
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.pdb
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestSharp.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Helpers.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Mvc.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Optimization.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Razor.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Newtonsoft.Json.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Antlr3.Runtime.pdb
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.AssemblyReference.cache
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.init.resources
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.Second.resources
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.third.resources
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.Fourth.resources
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next.resources
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next1.resources
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next2.resources
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.yyy.resources
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.GenerateResource.cache
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.dll
+C:\Users\kamil\Desktop\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestaurantApp.dll.config
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestaurantApp.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestaurantApp.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csc.exe
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csc.exe.config
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csc.rsp
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csi.exe
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csi.exe.config
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\csi.rsp
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.AppContext.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Console.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Net.Http.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\vbc.exe
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\vbc.exe.config
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\vbc.rsp
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Antlr3.Runtime.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\BouncyCastle.Crypto.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\DocuSign.eSign.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\EntityFramework.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Newtonsoft.Json.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestSharp.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.ComponentModel.Annotations.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Helpers.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Mvc.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Optimization.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Razor.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\WebGrease.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\DocuSign.eSign.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\EntityFramework.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestSharp.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Helpers.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Mvc.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Optimization.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.Razor.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Newtonsoft.Json.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Antlr3.Runtime.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.AssemblyReference.cache
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.init.resources
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.Second.resources
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.third.resources
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.Fourth.resources
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next.resources
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next1.resources
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.next2.resources
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Migrations.yyy.resources
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.GenerateResource.cache
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.CopyComplete
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.dll
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.pdb
+C:\Users\Rafał\Downloads\RestaurantAppODKAMILI\RestaurantApp (1)\RestaurantApp\RestaurantApp\bin\RestaurantApp.xml

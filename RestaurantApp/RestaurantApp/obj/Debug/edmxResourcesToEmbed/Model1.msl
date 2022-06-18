@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RestaurantAppModelStoreContainer" CdmEntityContainer="RestaurantAppEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="RestaurantAppModel.Customers">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuItems">
+      <EntityTypeMapping TypeName="RestaurantAppModel.MenuItems">
+        <MappingFragment StoreEntitySet="MenuItems">
+          <ScalarProperty Name="MenuItemId" ColumnName="MenuItemId" />
+          <ScalarProperty Name="MenuItemName" ColumnName="MenuItemName" />
+          <ScalarProperty Name="Calories" ColumnName="Calories" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="OrderMenuItem_OrderMenuItemId" ColumnName="OrderMenuItem_OrderMenuItemId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menus">
+      <EntityTypeMapping TypeName="RestaurantAppModel.Menus">
+        <MappingFragment StoreEntitySet="Menus">
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="MenuDescription" ColumnName="MenuDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderMenuItems">
+      <EntityTypeMapping TypeName="RestaurantAppModel.OrderMenuItems">
+        <MappingFragment StoreEntitySet="OrderMenuItems">
+          <ScalarProperty Name="OrderMenuItemId" ColumnName="OrderMenuItemId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="MenuItemId" ColumnName="MenuItemId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="RestaurantAppModel.Orders">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="WaiterId" ColumnName="WaiterId" />
+          <ScalarProperty Name="TableSeatingId" ColumnName="TableSeatingId" />
+          <ScalarProperty Name="OrderMenuItem_OrderMenuItemId" ColumnName="OrderMenuItem_OrderMenuItemId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TableSeatings">
+      <EntityTypeMapping TypeName="RestaurantAppModel.TableSeatings">
+        <MappingFragment StoreEntitySet="TableSeatings">
+          <ScalarProperty Name="TableSeatingId" ColumnName="TableSeatingId" />
+          <ScalarProperty Name="Seats" ColumnName="Seats" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Waiters">
+      <EntityTypeMapping TypeName="RestaurantAppModel.Waiters">
+        <MappingFragment StoreEntitySet="Waiters">
+          <ScalarProperty Name="WaiterId" ColumnName="WaiterId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

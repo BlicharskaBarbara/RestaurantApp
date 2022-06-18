@@ -1,0 +1,12 @@
+﻿@model IEnumerable<RestaurantApp.Models.DbModels.OrderMenuItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Connect menu items to order</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p><a class="btn btn-default" href="@Url.Action("Index","OrderMenuItemsDetails")">Display all menu items and orders connections &raquo;</a></p>

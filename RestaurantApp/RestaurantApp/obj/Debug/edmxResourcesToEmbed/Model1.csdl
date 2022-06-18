@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RestaurantAppModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_dbo_Orders_dbo_Customers_CustomerId" FromRole="Customers" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="MenuItems">
+    <Key>
+      <PropertyRef Name="MenuItemId" />
+    </Key>
+    <Property Name="MenuItemId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuItemName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Calories" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="MenuId" Type="Int32" Nullable="false" />
+    <Property Name="OrderMenuItem_OrderMenuItemId" Type="Int32" />
+    <NavigationProperty Name="Menus" Relationship="Self.FK_dbo_MenuItems_dbo_Menus_MenuId" FromRole="MenuItems" ToRole="Menus" />
+    <NavigationProperty Name="OrderMenuItems" Relationship="Self.FK_dbo_MenuItems_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId" FromRole="MenuItems" ToRole="OrderMenuItems" />
+    <NavigationProperty Name="OrderMenuItems1" Relationship="Self.FK_dbo_OrderMenuItems_dbo_MenuItems_MenuItemId" FromRole="MenuItems" ToRole="OrderMenuItems" />
+  </EntityType>
+  <EntityType Name="Menus">
+    <Key>
+      <PropertyRef Name="MenuId" />
+    </Key>
+    <Property Name="MenuId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MenuItems" Relationship="Self.FK_dbo_MenuItems_dbo_Menus_MenuId" FromRole="Menus" ToRole="MenuItems" />
+  </EntityType>
+  <EntityType Name="OrderMenuItems">
+    <Key>
+      <PropertyRef Name="OrderMenuItemId" />
+    </Key>
+    <Property Name="OrderMenuItemId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="MenuItemId" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MenuItems" Relationship="Self.FK_dbo_MenuItems_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId" FromRole="OrderMenuItems" ToRole="MenuItems" />
+    <NavigationProperty Name="MenuItems1" Relationship="Self.FK_dbo_OrderMenuItems_dbo_MenuItems_MenuItemId" FromRole="OrderMenuItems" ToRole="MenuItems" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_dbo_OrderMenuItems_dbo_Orders_OrderId" FromRole="OrderMenuItems" ToRole="Orders" />
+    <NavigationProperty Name="Orders1" Relationship="Self.FK_dbo_Orders_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId" FromRole="OrderMenuItems" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Payment" Type="Int32" Nullable="false" />
+    <Property Name="Paid" Type="Boolean" Nullable="false" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <Property Name="WaiterId" Type="Int32" Nullable="false" />
+    <Property Name="TableSeatingId" Type="Int32" Nullable="false" />
+    <Property Name="OrderMenuItem_OrderMenuItemId" Type="Int32" />
+    <NavigationProperty Name="Customers" Relationship="Self.FK_dbo_Orders_dbo_Customers_CustomerId" FromRole="Orders" ToRole="Customers" />
+    <NavigationProperty Name="OrderMenuItems" Relationship="Self.FK_dbo_OrderMenuItems_dbo_Orders_OrderId" FromRole="Orders" ToRole="OrderMenuItems" />
+    <NavigationProperty Name="OrderMenuItems1" Relationship="Self.FK_dbo_Orders_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId" FromRole="Orders" ToRole="OrderMenuItems" />
+    <NavigationProperty Name="TableSeatings" Relationship="Self.FK_dbo_Orders_dbo_TableSeatings_TableSeatingId" FromRole="Orders" ToRole="TableSeatings" />
+    <NavigationProperty Name="Waiters" Relationship="Self.FK_dbo_Orders_dbo_Waiters_WaiterId" FromRole="Orders" ToRole="Waiters" />
+  </EntityType>
+  <EntityType Name="TableSeatings">
+    <Key>
+      <PropertyRef Name="TableSeatingId" />
+    </Key>
+    <Property Name="TableSeatingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Seats" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_dbo_Orders_dbo_TableSeatings_TableSeatingId" FromRole="TableSeatings" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Waiters">
+    <Key>
+      <PropertyRef Name="WaiterId" />
+    </Key>
+    <Property Name="WaiterId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="Int32" Nullable="false" />
+    <Property Name="Salary" Type="Single" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_dbo_Orders_dbo_Waiters_WaiterId" FromRole="Waiters" ToRole="Orders" />
+  </EntityType>
+  <Association Name="FK_dbo_Orders_dbo_Customers_CustomerId">
+    <End Role="Customers" Type="Self.Customers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_MenuItems_dbo_Menus_MenuId">
+    <End Role="Menus" Type="Self.Menus" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MenuItems" Type="Self.MenuItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menus">
+        <PropertyRef Name="MenuId" />
+      </Principal>
+      <Dependent Role="MenuItems">
+        <PropertyRef Name="MenuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_MenuItems_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId">
+    <End Role="OrderMenuItems" Type="Self.OrderMenuItems" Multiplicity="0..1" />
+    <End Role="MenuItems" Type="Self.MenuItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderMenuItems">
+        <PropertyRef Name="OrderMenuItemId" />
+      </Principal>
+      <Dependent Role="MenuItems">
+        <PropertyRef Name="OrderMenuItem_OrderMenuItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_OrderMenuItems_dbo_MenuItems_MenuItemId">
+    <End Role="MenuItems" Type="Self.MenuItems" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="OrderMenuItems" Type="Self.OrderMenuItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="MenuItemId" />
+      </Principal>
+      <Dependent Role="OrderMenuItems">
+        <PropertyRef Name="MenuItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_OrderMenuItems_dbo_Orders_OrderId">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="OrderMenuItems" Type="Self.OrderMenuItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="OrderMenuItems">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Orders_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId">
+    <End Role="OrderMenuItems" Type="Self.OrderMenuItems" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderMenuItems">
+        <PropertyRef Name="OrderMenuItemId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="OrderMenuItem_OrderMenuItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Orders_dbo_TableSeatings_TableSeatingId">
+    <End Role="TableSeatings" Type="Self.TableSeatings" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TableSeatings">
+        <PropertyRef Name="TableSeatingId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="TableSeatingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Orders_dbo_Waiters_WaiterId">
+    <End Role="Waiters" Type="Self.Waiters" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Waiters">
+        <PropertyRef Name="WaiterId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="WaiterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RestaurantAppEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customers" />
+    <EntitySet Name="MenuItems" EntityType="Self.MenuItems" />
+    <EntitySet Name="Menus" EntityType="Self.Menus" />
+    <EntitySet Name="OrderMenuItems" EntityType="Self.OrderMenuItems" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" />
+    <EntitySet Name="TableSeatings" EntityType="Self.TableSeatings" />
+    <EntitySet Name="Waiters" EntityType="Self.Waiters" />
+    <AssociationSet Name="FK_dbo_Orders_dbo_Customers_CustomerId" Association="Self.FK_dbo_Orders_dbo_Customers_CustomerId">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_MenuItems_dbo_Menus_MenuId" Association="Self.FK_dbo_MenuItems_dbo_Menus_MenuId">
+      <End Role="Menus" EntitySet="Menus" />
+      <End Role="MenuItems" EntitySet="MenuItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_MenuItems_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId" Association="Self.FK_dbo_MenuItems_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId">
+      <End Role="OrderMenuItems" EntitySet="OrderMenuItems" />
+      <End Role="MenuItems" EntitySet="MenuItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_OrderMenuItems_dbo_MenuItems_MenuItemId" Association="Self.FK_dbo_OrderMenuItems_dbo_MenuItems_MenuItemId">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="OrderMenuItems" EntitySet="OrderMenuItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_OrderMenuItems_dbo_Orders_OrderId" Association="Self.FK_dbo_OrderMenuItems_dbo_Orders_OrderId">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderMenuItems" EntitySet="OrderMenuItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Orders_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId" Association="Self.FK_dbo_Orders_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId">
+      <End Role="OrderMenuItems" EntitySet="OrderMenuItems" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Orders_dbo_TableSeatings_TableSeatingId" Association="Self.FK_dbo_Orders_dbo_TableSeatings_TableSeatingId">
+      <End Role="TableSeatings" EntitySet="TableSeatings" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Orders_dbo_Waiters_WaiterId" Association="Self.FK_dbo_Orders_dbo_Waiters_WaiterId">
+      <End Role="Waiters" EntitySet="Waiters" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

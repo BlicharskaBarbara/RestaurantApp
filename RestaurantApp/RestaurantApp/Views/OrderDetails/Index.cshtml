@@ -1,0 +1,89 @@
+﻿@model IEnumerable<RestaurantApp.ViewModels.CustomerWaiterOrderVM>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of all orders details</h2>
+
+<table class="table">
+
+    <tr>
+        <th>
+            @Html.DisplayName("Order ID")
+        </th>
+        <th>
+            @Html.DisplayName("Table ID")
+        </th>
+        <th>
+            @Html.DisplayName("Customer (First name)")
+        </th>
+        <th>
+            @Html.DisplayName("Customer (Surname)")
+        </th>
+        <th>
+            @Html.DisplayName("Waiter (Surname)")
+        </th>
+        <th>
+            @Html.DisplayName("Paid")
+        </th>
+        <th>
+            @Html.DisplayName("Comments")
+        </th>
+
+        <th></th>
+    </tr>
+    @*<tr>
+            <th>
+                @Html.DisplayName(model => model.OrderId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableSeatingID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Surname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Paid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comments)
+            </th>
+
+            <th></th>
+        </tr>*@
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TableSeatingID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Paid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments)
+            </td>
+
+        </tr>
+    }
+
+</table>

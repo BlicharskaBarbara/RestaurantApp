@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestaurantApp</name>
+    </assembly>
+    <members>
+        <member name="T:RestaurantApp.Controllers.CustomersController">
+            <summary>
+            Controller for customer model
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.Index">
+            <summary>
+            Index for customer 
+            </summary>
+            <returns>View(db.Customers.ToList())</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Details method for customer model
+            </summary>
+            <param name="id"> id from customer, which we want to get details about</param>
+            <returns>View(customer)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.Create">
+            <summary>
+            Create method (HttpGet type) for customer model
+            </summary>
+            <returns>View()</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.Create(RestaurantApp.Models.DbModels.Customer)">
+            <summary>
+            Create method (HttpPost type) for customer  model
+            </summary>
+            <param name="customer">customer, which we want to create</param>
+            <returns>View(customer)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Edit method (HttpGet type) for customer model
+            </summary>
+            <param name="id">id from customer, which we want to edit</param>
+            <returns>View(customer)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.Edit(RestaurantApp.Models.DbModels.Customer)">
+            <summary>
+            Edit method (HttpPost type) for customer model
+            </summary>
+            <param name="customer">cutomer, which we want to edit</param>
+            <returns>View(customer)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete method (HttpGet type) for customer model
+            </summary>
+            <param name="id">id from customer, which we want to delete</param>
+            <returns>View(customer)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Delete method (HttpPost type)  for customer model 
+            </summary>
+            <param name="id">id from customer, which we delete</param>
+            <returns>RedirectToAction("Index")</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.CustomersController.ViewAll">
+            <summary>
+            ViewAll method for customer model
+            </summary>
+            <returns>View(customers)</returns>
+        </member>
+        <member name="T:RestaurantApp.Controllers.HomeController">
+            <summary>
+            home controller
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Controllers.MenuItemsController">
+            <summary>
+            Controller for cmenu items model
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.Index">
+            <summary>
+            Index for menu item
+            </summary>
+            <returns>View(menuItems.ToList())</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Details method for menu item model
+            </summary>
+            <param name="id"> id from menu item, which we want to get details about</param>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.Create">
+            <summary>
+            Create method (HttpGet type) for menu item model
+            </summary>
+            <returns>View()</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.Create(RestaurantApp.Models.DbModels.MenuItem)">
+            <summary>
+            Create methot (HttpPost type) for menu item model
+            </summary>
+            <param name="menuItem">menu item, which we want to create</param>
+            <returns>View(menuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Edit method (HttpGet type) for menu item model
+            </summary>
+            <param name="id">id from mennu item, which we want to edit</param>
+            <returns>View(menuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.Edit(RestaurantApp.Models.DbModels.MenuItem)">
+            <summary>
+            Edit method (HttpPost type) for menu item model
+            </summary>
+            <param name="menuItem">menu item, which we want to edit</param>
+            <returns>View(menuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete method (HttpGet type) for menu item model
+            </summary>
+            <param name="id">id from menu item, which we want to delete</param>
+            <returns>View(menuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Delete method (HttpPost type)  for menu item model 
+            </summary>
+            <param name="id">id from menu item, which we delete</param>
+            <returns>RedirectToAction("Index")</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.MenuItemsController.ViewAll">
+            <summary>
+            ViewAll method for menu item model
+            </summary>
+            <returns>View(menuitems.ToList())</returns>
+        </member>
+        <member name="T:RestaurantApp.Controllers.OrderDetailsController">
+            <summary>
+            Controller for order details view model
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Controllers.OrderMenuItemsController">
+            <summary>
+            Controller for ordermenuitems model
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.Index">
+            <summary>
+            Index for ordermenuitems model
+            </summary>
+            <returns>View(orderMenuItems.ToList())</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Details method for ordermenuitems model
+            </summary>
+            <param name="id"> id from odermenuitem, which we want to get details about</param>
+            <returns>View(orderMenuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.Create">
+            <summary>
+            Create method (HttpGet type) for ordermenuitem model
+            </summary>
+            <returns>View()</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.Create(RestaurantApp.Models.DbModels.OrderMenuItem)">
+            <summary>
+            Create method (HttpPost type) for ordermenuitem  model
+            </summary>
+            <param name="orderMenuItem">ordermenuitem, which we want to create</param>
+            <returns>View(orderMenuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Edit method (HttpGet type) for ordermenuitem model
+            </summary>
+            <param name="id">id from ordermenuitem, which we want to edit</param>
+            <returns>View(orderMenuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.Edit(RestaurantApp.Models.DbModels.OrderMenuItem)">
+            <summary>
+            Edit method (HttpPost type) for ordermenuitem model
+            </summary>
+            <param name="orderMenuItem">ordermenuitem, which we want to edit</param>
+            <returns>View(orderMenuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete method (HttpGet type) for ordermenuitem model
+            </summary>
+            <param name="id">id from ordermenuitem, which we want to delete</param>
+            <returns>View(orderMenuItem)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Delete method (HttpPost type)  for ordermenuitem model 
+            </summary>
+            <param name="id">id from ordermenuitem, which we delete</param>
+            <returns>RedirectToAction("Index")</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrderMenuItemsController.ViewAll">
+            <summary>
+            ViewAll method for ordermenuitem model
+            </summary>
+            <returns>View(orderMenuItems)</returns>
+        </member>
+        <member name="T:RestaurantApp.Controllers.OrdersController">
+            <summary>
+            Controller for order model
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrdersController.Index">
+            <summary>
+            Index for order
+            </summary>
+            <returns>View(orders.ToList())</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrdersController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Details method for order model
+            </summary>
+            <param name="id"> id from order, which we want to get details about</param>
+            <returns>View(order)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrdersController.Create">
+            <summary>
+            Create method (HttpGet type) for order model
+            </summary>
+            <returns>View()</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrdersController.Create(RestaurantApp.Models.DbModels.Order)">
+            <summary>
+            Create method (HttpPost type) for order  model
+            </summary>
+            <param name="order">order, which we want to create</param>
+            <returns>View(order)</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:RestaurantApp.Controllers.OrdersController.Edit(System.Nullable{System.Int32})" -->
+        <member name="M:RestaurantApp.Controllers.OrdersController.Edit(RestaurantApp.Models.DbModels.Order)">
+            <summary>
+            Edit method (HttpPost type) for order model
+            </summary>
+            <param name="order">cutomer, which we want to edit</param>
+            <returns>View(order)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrdersController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete method (HttpGet type) for order model
+            </summary>
+            <param name="id">id from order, which we want to delete</param>
+            <returns>View(order)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrdersController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Delete method (HttpPost type)  for order model 
+            </summary>
+            <param name="id">id from order, which we delete</param>
+            <returns>RedirectToAction("Index")</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.OrdersController.ViewAll">
+            <summary>
+            ViewAll method for order model
+            </summary>
+            <returns>View(orders)</returns>
+        </member>
+        <member name="T:RestaurantApp.Controllers.TableSeatingsController">
+            <summary>
+            Controller for tableseatings model
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.Index">
+            <summary>
+            Index for tableseatings
+            </summary>
+            <returns>View(db.TableSeatings.ToList())</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Details method for tableseatings model
+            </summary>
+            <param name="id"> id from table, which we want to get details about</param>
+            <returns>View(tableSeating)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.Create">
+            <summary>
+            Create method (HttpGet type) for tableseatings model
+            </summary>
+            <returns>View()</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.Create(RestaurantApp.Models.DbModels.TableSeating)">
+            <summary>
+            Create method (HttpPost type) for tableseatings  model
+            </summary>
+            <param name="tableSeating">table, which we want to create</param>
+            <returns>View(tableSeating)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Edit method (HttpGet type) for tableseatings model
+            </summary>
+            <param name="id">id from table, which we want to edit</param>
+            <returns>View(tableSeating)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.Edit(RestaurantApp.Models.DbModels.TableSeating)">
+            <summary>
+            Edit method (HttpPost type) for tableseating model
+            </summary>
+            <param name="tableSeating">table, which we want to edit</param>
+            <returns>View(tableSeating)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete method (HttpGet type) for tableseatings model
+            </summary>
+            <param name="id">id from table, which we want to delete</param>
+            <returns>View(tableSeating)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Delete method (HttpPost type)  for tableseatings model 
+            </summary>
+            <param name="id">id from table, which we delete</param>
+            <returns>RedirectToAction("Index")</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.TableSeatingsController.ViewAll">
+            <summary>
+            ViewAll method for tableseatings model
+            </summary>
+            <returns>View(tableSeatings)</returns>
+        </member>
+        <member name="T:RestaurantApp.Controllers.WaiterController">
+            <summary>
+            Controller for waiter model
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.Index">
+            <summary>
+            Index for waiter
+            </summary>
+            <returns>View()</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.Create">
+            <summary>
+            Create method (HttpGet type) for waiter model
+            </summary>
+            <returns>return View(new Waiter())</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.Create(RestaurantApp.Models.DbModels.Waiter)">
+            <summary>
+            Create method (HttpPost type) for waiter model
+            </summary>
+            <param name="waiter">waiter, which we want to create</param>
+            <returns>RedirectToAction("Index")</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.Edit(System.Int32)">
+            <summary>
+            Edit method (HttpGet type) for waiter model
+            </summary>
+            <param name="id">id from waiter, which we want to edit</param>
+            <returns>View(waiter)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.Edit(RestaurantApp.Models.DbModels.Waiter)">
+            <summary>
+            Edit method (HttpPost type) for waiter model
+            </summary>
+            <param name="waiter">waiter, which we want to edit</param>
+            <returns>return RedirectToAction("ViewAll")</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete method (HttpGet type) for waiter model
+            </summary>
+            <param name="id">id from waiter, which we want to delete</param>
+            <returns>View(waiter)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.DeleteConfirm(System.Nullable{System.Int32})">
+            <summary>
+            Delete method (HttpPost type)  for waiter model 
+            </summary>
+            <param name="id">id from waiter, which we want to delete</param>
+            <returns>RedirectToAction("Index")</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.Details(System.Int32)">
+            <summary>
+            Details method for waiter model
+            </summary>
+            <param name="id"> id from waiter, which we want to get details about</param>
+            <returns>View(waiter)</returns>
+        </member>
+        <member name="M:RestaurantApp.Controllers.WaiterController.ViewAll">
+            <summary>
+            ViewAll method for waiter model
+            </summary>
+            <returns>View(waiters)</returns>
+        </member>
+        <member name="T:RestaurantApp.Models.DatabaseContext">
+            <summary>
+            class which contains context for database 
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DatabaseContext.#ctor">
+            <summary>
+            contructor for DatabaseContext class
+            </summary>
+        </member>
+        <member name="P:RestaurantApp.Models.DatabaseContext.Customers">
+            <summary>
+            DbSets
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DatabaseContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>
+            overriding for OnModelCreating method 
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:RestaurantApp.Models.DbModels.Customer">
+            <summary>
+            Model for customer class
+            </summary>
+        </member>
+        <member name="P:RestaurantApp.Models.DbModels.Customer.CustomerId">
+            <summary>
+            properties (table columns)
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DbModels.Customer.#ctor">
+            <summary>
+            constructors
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Models.DbModels.Menu">
+            <summary>
+            Model for menu class
+            </summary>
+        </member>
+        <member name="P:RestaurantApp.Models.DbModels.Menu.MenuId">
+            <summary>
+            properties (table columns)
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DbModels.Menu.#ctor">
+            <summary>
+            constructors
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Models.DbModels.MenuItem">
+            <summary>
+            Model for menu item class
+            </summary>
+        </member>
+        <member name="P:RestaurantApp.Models.DbModels.MenuItem.MenuItemId">
+            <summary>
+            properties (table columns)
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DbModels.MenuItem.#ctor">
+            <summary>
+            constructors
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Models.DbModels.PaymentType">
+            <summary>
+            enum for payment type
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Models.DbModels.Order">
+            <summary>
+            Model for order class
+            </summary>
+        </member>
+        <member name="P:RestaurantApp.Models.DbModels.Order.OrderId">
+            <summary>
+            properties (table columns)
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DbModels.Order.#ctor">
+            <summary>
+            constructors
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Models.DbModels.OrderMenuItem">
+            <summary>
+            Model for class connecting order and menu item classes
+            </summary>
+        </member>
+        <member name="P:RestaurantApp.Models.DbModels.OrderMenuItem.OrderMenuItemId">
+            <summary>
+            properties (table columns)
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DbModels.OrderMenuItem.#ctor">
+            <summary>
+            constructors
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Models.DbModels.TableSeating">
+            <summary>
+            Model for table seating class
+            </summary>
+        </member>
+        <member name="P:RestaurantApp.Models.DbModels.TableSeating.TableSeatingId">
+            <summary>
+            properties (table columns)
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DbModels.TableSeating.#ctor">
+            <summary>
+            constructors
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.Models.DbModels.Waiter">
+            <summary>
+            Model for waiter class
+            </summary>
+        </member>
+        <member name="P:RestaurantApp.Models.DbModels.Waiter.WaiterId">
+            <summary>
+            properties (table columns)
+            </summary>
+        </member>
+        <member name="M:RestaurantApp.Models.DbModels.Waiter.#ctor">
+            <summary>
+            constructors
+            </summary>
+        </member>
+        <member name="T:RestaurantApp.ViewModels.CustomerWaiterOrderVM">
+            <summary>
+            view model, which connect order with waiter model and  customer model
+            </summary>
+        </member>
+    </members>
+</doc>

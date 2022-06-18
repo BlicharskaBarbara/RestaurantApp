@@ -1,0 +1,14 @@
+﻿@model IEnumerable<RestaurantApp.Models.DbModels.Order>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Orders</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<p><a class="btn btn-default" href="@Url.Action("Index","OrderMenuItems")">Add items to order &raquo;</a></p>
+<p><a class="btn btn-default" href="@Url.Action("Index","OrderDetails")">Display all orders &raquo;</a></p>

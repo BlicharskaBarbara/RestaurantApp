@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b542b0a7133c4787a1ad60d871cf6788" Name="Diagram1" ZoomLevel="80">
+        <EntityTypeShape EntityType="RestaurantAppModel.Customers" Width="1.5" PointX="5.125" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantAppModel.MenuItems" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantAppModel.Menus" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantAppModel.OrderMenuItems" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantAppModel.Orders" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantAppModel.TableSeatings" Width="1.5" PointX="6.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantAppModel.Waiters" Width="1.5" PointX="8.125" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="RestaurantAppModel.FK_dbo_Orders_dbo_Customers_CustomerId" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantAppModel.FK_dbo_MenuItems_dbo_Menus_MenuId" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantAppModel.FK_dbo_MenuItems_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantAppModel.FK_dbo_OrderMenuItems_dbo_MenuItems_MenuItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantAppModel.FK_dbo_OrderMenuItems_dbo_Orders_OrderId" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantAppModel.FK_dbo_Orders_dbo_OrderMenuItems_OrderMenuItem_OrderMenuItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantAppModel.FK_dbo_Orders_dbo_TableSeatings_TableSeatingId" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantAppModel.FK_dbo_Orders_dbo_Waiters_WaiterId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
